@@ -3,7 +3,7 @@ from llm_chat import generate_response
 import json
 
 # load challenges
-with open('challenges.txt','r') as f:
+with open('challenges.json','r') as f:
     challenges = json.load(f)
 
 # 功能函数
