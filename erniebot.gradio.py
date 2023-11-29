@@ -1,5 +1,6 @@
 import gradio as gr
 from llm_chat import generate_response
+from game_utils import *
 import json
 
 # load challenges
